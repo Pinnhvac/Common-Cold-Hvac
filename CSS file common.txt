@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1E90FF;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: #1E90FF;
+    margin-bottom: 1em;
+}
+
+#home {
+    background: url('hvac-background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 5em 0;
+}
+
+#home .cta-button {
+    display: inline-block;
+    padding: 1em 2em;
+    background-color: #1E90FF;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+#services ul {
+    list-style: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form select {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    width: 100%;
+    max-width: 400px;
+}
+
+footer {
+    background-color: #1E90FF;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}

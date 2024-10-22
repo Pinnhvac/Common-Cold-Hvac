@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Common Cold HVAC contractor in Greater Charlotte, NC. Reliable service, installs, and maintenance.">
+    <title>Common Cold HVAC | Charlotte, NC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Common Cold HVAC</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#booking">Book Appointment</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Your Trusted HVAC Contractor in Greater Charlotte</h2>
+        <p>Providing reliable HVAC services, maintenance, and installs. Keep your home comfortable with Common Cold HVAC.</p>
+        <a href="#booking" class="cta-button">Book Now</a>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>HVAC System Installations</li>
+            <li>Scheduled Maintenance</li>
+            <li>Emergency Repairs</li>
+            <li>Indoor Air Quality Solutions</li>
+        </ul>
+    </section>
+
+    <section id="booking">
+        <h2>Book an Appointment</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="service">Select Service:</label>
+            <select id="service" name="service">
+                <option value="install">HVAC Install</option>
+                <option value="maintenance">Scheduled Maintenance</option>
+                <option value="repair">Emergency Repair</option>
+            </select>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <input type="submit" value="Book Now">
+        </form>
+    </section>
+
+    <section id="about">
+        <h2>About Common Cold HVAC</h2>
+        <p>We are a locally owned and operated HVAC contractor, serving the greater Charlotte area for over 10 years. Our expert team ensures your home stays cool in the summer and warm in the winter.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@commoncoldhvac.com</p>
+        <p>Phone: (704) 123-4567</p>
+        <p>Location: Charlotte, NC</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Common Cold HVAC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
